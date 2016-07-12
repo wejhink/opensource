@@ -94,10 +94,6 @@ div.header h1 {
   line-height: 15px;
 }
 
-#statistics {
-  padding-bottom: 10px;
-}
-
 #statistics a:link, #statistics a:visited {
   color: inherit;
 }
