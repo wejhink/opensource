@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Jhink &hearts; Open Source</title>
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/grid.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <!-- <link href="//abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon"> -->
+    <script type="text/javascript" src="assets/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="assets/strftime.js"></script>
+    <script type="text/javascript" src="assets/jquery.filtertable.min.js"></script>
+    <script type="text/javascript" src="assets/main.js"> </script>
+  </head>
+  <body>
+    <div id="wrapper" class="grid clearfix">
+      <div id="main" class="grid-12">
+        <div id="logo"><h1>Jhink Open Source</h1></div>
+        <h1>Jhink is built on open source software.</h1>
+        <p>Want to help? <a href="https://jhink.com/jobs">Join Us</a></p>
+      </div>
+
+      <div class="grid grid-12">
+        <div id="statistics" class="grid-2">
+          <h1>Statistics</h1>
+          <p>
+            <a href="https://github.com/wejhink/repositories"><span id="num-repos"><img src="assets/spinner.gif" /></span> public repos</a>
+            <br>
+            <a href="https://github.com/wejhink?tab=members"><span id="num-members"><img src="assets/spinner.gif" /></span> members</a>
+          </p>
+          <p class="email"><a href="mailto:opensource@jhink.com">opensource@jhink.com</a></p>
+        </div>
+
+        <div id="recently-updated" class="grid-2">
+          <h1>Recently updated <a href="https://github.com/wejhink/repositories">View All on GitHub</a></h1>
+          <ol id="recently-updated-repos"></ol>
+        </div>
+      </div>
+      <ol id="repos"></ol>
+    </div>
+  </body>
+</html>
